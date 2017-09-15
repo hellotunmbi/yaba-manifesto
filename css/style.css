@@ -1,0 +1,71 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container-full {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menus {
+    float: right;
+    padding: 20px 0;
+}
+
+.menus ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menus ul li  {
+    text-transform: uppercase;
+    display: inline;
+    margin-right: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+}
+
+.banner {
+    background-image: "images/yabacluster.png";
+}
+
+
+/*** MINI BANNER ***/
+
+.mini-banner {
+    padding: 50px 0;
+    /*background-color: rgb(255,109, 0);*/
+    box-sizing: border-box;
+    color: #fff;
+    height: 270px;
+    background-size: cover;
+    background-image: url("http://res.cloudinary.com/domymi7op/image/upload/c_scale,h_270,w_1440/v1505474751/yabacluster1_ro9pvn.jpg");
+}
+
+.minibanner__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    /* margin-top: 10%; */
+    padding: 5% 0;
+}
+
+.minibanner__title {
+    margin: auto 0;
+    padding: 10% 0;
+}
+
+.minibanner__title h2 {
+    font-weight: bolder;
+}
+
+
+.pillar-title-cont {
+    text-align: center;
+    margin: 40px auto;
+}
