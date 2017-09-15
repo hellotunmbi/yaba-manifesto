@@ -65,7 +65,34 @@ body {
 }
 
 
+.pillars {
+    display: inline-block;
+}
+
+
 .pillar-title-cont {
     text-align: center;
     margin: 40px auto;
 }
+
+.pillar-single {
+    margin-bottom: 15px;
+}
+
+.mini-twitter-feeds {
+    padding: 20px;
+    border: 1px solid #979797;
+    border-radius: 5px;
+}
+
+
+
+#footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:366px;
+    width:100%;
+    background:#999;
+    background-image: url("http://res.cloudinary.com/domymi7op/image/upload/v1505501298/footer_aizlge.png");
+ }
