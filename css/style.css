@@ -21,7 +21,7 @@ body {
 .menus ul li  {
     text-transform: uppercase;
     display: inline;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .menu ul li a {
@@ -83,6 +83,18 @@ body {
     padding: 20px;
     border: 1px solid #979797;
     border-radius: 5px;
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #979797;
+    margin-top: 30px;
+    padding: 25px;
+}
+
+.contact {
+
 }
 
 
